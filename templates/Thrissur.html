@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Thrissur
+{% endblock %}
+
+
+{% block content %}
+
+<section id="about" class="about">
+    <div class="container" style="margin-top:100px;">
+
+            <table class="table">
+              <thead class="table-info">
+              <tr>
+                <th style="text-align:center;" class="table-warning">Thrissur Branches</th>
+              </tr>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Branch/Office Name</th>
+                  <th scope="col">Pin Code</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Ifsc code</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Kunnamkulam</td>
+                  <td>680307</td>
+                  <td>easy.kkm@email.com</td>
+                  <td>EASYB0000708</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Chalakkudi</td>
+                  <td>680304</td>
+                  <td>easy.ckd@email.com</td>
+                  <td>EASYB0000709</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Kodungallur</td>
+                  <td>680308</td>
+                  <td>easy.kgr@email.com</td>
+                  <td>EASYB0000707</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+    </div>
+</section><!-- End About Section -->
+
+{% endblock %}

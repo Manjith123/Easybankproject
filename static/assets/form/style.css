@@ -1,0 +1,12 @@
+#id_gender, #id_materials{
+    margin-top: 35px;
+    list-style-type: none;
+    display: inline-flex;
+}
+#id_gender > li{
+    padding-left: 10px;
+}
+
+#id_materials > li{
+    padding-left: 10px;
+}

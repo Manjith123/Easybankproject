@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Calicut
+{% endblock %}
+
+
+{% block content %}
+
+<section id="about" class="about">
+    <div class="container" style="margin-top:100px;">
+
+            <table class="table">
+              <thead class="table-info">
+              <tr>
+                <th style="text-align:center;" class="table-warning">Calicut Branches</th>
+              </tr>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Branch/Office Name</th>
+                  <th scope="col">Pin Code</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Ifsc code</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Vatakara</td>
+                  <td>680327</td>
+                  <td>easy.vkr@email.com</td>
+                  <td>EASYB0000208</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Perambra</td>
+                  <td>680324</td>
+                  <td>easy.pmb@email.com</td>
+                  <td>EASYB0000209</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Balussery</td>
+                  <td>680328</td>
+                  <td>easy.bsr@email.com</td>
+                  <td>EASYB0000207</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+    </div>
+</section><!-- End About Section -->
+
+{% endblock %}
